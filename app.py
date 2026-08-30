@@ -18,7 +18,7 @@ if st.button("Classify email"):
         if prediction == "SPAM":
             st.error("🚨 SPAM")
         else:
-            st.success("✅ HAM")
+            st.success("✅ LEGITIMATE")
 def clear_email():
     st.session_state.email_input = ""
 
