@@ -2,5 +2,5 @@ streamlit
 scikit-learn
 pandas
 numpy
-nltk
-pickle
+nltk==3.9.1
+regex
