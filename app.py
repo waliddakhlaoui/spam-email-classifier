@@ -19,6 +19,8 @@ if st.button("Classify email"):
             st.error("🚨 SPAM")
         else:
             st.success("✅ HAM")
-if st.button("Clear"):
+def clear_email():
     st.session_state.email_input = ""
-    st.rerun()
+
+if st.button("Clear", on_click=clear_email):
+    pass
